@@ -1,0 +1,15 @@
+dialogue:
+  transition-ticks: 28      # плавный подлёт камеры к NPC
+  leave-ticks: 18           # плавный возврат камеры
+  typing-chars-per-tick: 1  # скорость печати текста
+  sneak-exit: true          # Shift завершает диалог
+  sounds: true
+panel:                      # панель над камерой (координаты в блоках на расстоянии distance от глаз)
+  distance: 1.0
+  text-scale: 0.3
+  x: 0.62                   # смещение панели вправо от центра экрана
+  message-y: 0.30
+  options-y: 0.0
+  message-width-px: 140
+cinema:
+  enabled: true             # кино-полосы (ресурспак обязателен)

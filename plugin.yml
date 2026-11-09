@@ -1,0 +1,15 @@
+name: NpcDialogue
+version: '${version}'
+main: dev.npcdialogue.NpcDialoguePlugin
+api-version: '26.3'
+depend: [BetterModel]
+description: NPC на моделях BetterModel + кинематографичные диалоги с конструктором
+commands:
+  npc:
+    aliases: [npcd]
+    description: Конструктор NPC и диалогов
+    usage: /npc [create|remove|edit|list|tp|talk|emote|reload]
+    permission: npcdialogue.admin
+permissions:
+  npcdialogue.admin:
+    default: op
